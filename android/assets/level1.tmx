@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="240" height="13" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tileset_gutter" tilewidth="16" tileheight="16" spacing="2" margin="1">
+  <image source="tileset_gutter.png" width="594" height="504"/>
+ </tileset>
+ <layer name="background" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7Ay/4bqrir2JZBeUlVVVVVVVVVVVVVV1ccDxULniQ==
+  </data>
+ </layer>
+ <layer name="graphics" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEOwUAUxvEZPR6HwJoFFljiDEgcBCvcBDfxEpo0k+kYo2knnf8v+RLq9alkvlCqnS4dpa6SW6fpJwHqsZWzvpPsHWfeZyYX2qF+ptRAMsz8rtvc5Tsfkif9RSKOctZPkrPjzJszrk6Fdmglu9aSTeZ3HUAYOgUAAAAAQHwO+h0gRV05+70Kz3/V+4rMnk7k/VQyo79oGd8ejWRm/GXOtqtsv2vfv92uqq/5f3YxKdKfID5mj+byeiFZaveczy7Xfa59ts/KnsvGNvtr91zzZp9tPQ9NjOhvfHQL0qbfQkhqyTX9HITUnReO4kCL
+  </data>
+ </layer>
+ <objectgroup name="ground" width="240" height="13">
+  <object x="6" y="182" height="4"/>
+  <object x="2" y="177" width="779" height="31"/>
+  <object x="817" y="177" width="3031" height="30"/>
+  <object x="2225" y="146" height="10"/>
+ </objectgroup>
+ <objectgroup name="pipes" width="240" height="13">
+  <object x="32" y="147" width="17"/>
+  <object x="34" y="143" width="29" height="36"/>
+  <object x="191" y="128" width="32" height="49"/>
+  <object x="338" y="144" width="28" height="33"/>
+  <object x="512" y="128" width="29" height="47"/>
+  <object x="625" y="146" width="29" height="28"/>
+ </objectgroup>
+ <objectgroup name="coins" width="240" height="13">
+  <object x="1174" y="156">
+   <ellipse/>
+  </object>
+  <object x="1159" y="172">
+   <ellipse/>
+  </object>
+  <object x="1194" y="154">
+   <ellipse/>
+  </object>
+  <object x="1211" y="152">
+   <ellipse/>
+  </object>
+  <object x="1228" y="152">
+   <ellipse/>
+  </object>
+  <object x="1243" y="152">
+   <ellipse/>
+  </object>
+  <object x="1271" y="165">
+   <ellipse/>
+  </object>
+  <object x="1289" y="172">
+   <ellipse/>
+  </object>
+  <object x="1306" y="173">
+   <ellipse/>
+  </object>
+  <object x="1331" y="162" width="302" height="14"/>
+  <object x="963" y="115" width="28" height="12"/>
+  <object x="968" y="168">
+   <ellipse/>
+  </object>
+  <object x="887" y="136">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="bricks" width="240" height="13">
+  <object x="2226" y="146" width="29" height="32"/>
+  <object x="881" y="145" width="47" height="17"/>
+  <object x="928" y="162" width="1" height="1"/>
+  <object x="946" y="129" width="48" height="16"/>
+ </objectgroup>
+</map>
